@@ -1,0 +1,49 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'Fredoka One', cursive;
+
+/*Perfect Full Page Background*/
+	background: url(startup6.png) no-repeat center center fixed; 
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+h1 {
+	font-size: 2em;
+	color: #272343;
+
+	/*text-align: center;
+	border: 2px dashed #ffd803;
+	max-width: 600px; */
+}
+/*
+hr{
+	border-color: #ffd803;;
+	border-width: 3px;
+	max-width: 65px;
+}*/
+
+.buffer{
+	height: .5rem;
+}
+
+.btn{
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+.btn-primary{
+	background-color: #ffd803;
+	/*border-color: #ffd803;*/
+}
+.btn-primary:hover{
+	/*background-color: #FFE03B;*/
+	background-color: rgb(35,119,246);
+	border-color: rgb(35,119,246);
+	border-width: 4px;
+}
+.btn-xl{
+	padding: 1rem 2rem;
+}
